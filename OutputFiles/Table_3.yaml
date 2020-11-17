@@ -1,0 +1,160 @@
+independent_variables:
+- header: {name: 'x-axis'}
+  values:
+  - {low: 5.739321, high: 6.139321}
+  - {low: 7.089514, high: 7.489514}
+  - {low: 9.990079, high: 10.390079}
+  - {low: 12.063906, high: 12.463906}
+  - {low: 13.054961, high: 13.454961}
+  - {low: 16.643002, high: 17.043002}
+  - {low: 17.496205, high: 17.896205}
+  - {low: 20.396703, high: 20.796703}
+  - {low: 21.445429, high: 21.845429}
+  - {low: 22.977434, high: 23.377434}
+  - {low: 24.961321, high: 25.361321}
+  - {low: 28.440264, high: 28.840264}
+  - {low: 30.114320, high: 30.514320}
+  - {low: 32.336160, high: 32.736160}
+  - {low: 33.248962, high: 33.648962}
+  - {low: 35.952886, high: 36.352886}
+  - {low: 38.495687, high: 38.895687}
+  - {low: 39.777273, high: 40.177273}
+  - {low: 40.818712, high: 41.218712}
+  - {low: 44.670571, high: 45.070571}
+  - {low: 46.445194, high: 46.845194}
+  - {low: 47.135280, high: 47.535280}
+  - {low: 50.173233, high: 50.573233}
+  - {low: 51.157371, high: 51.557371}
+  - {low: 54.552380, high: 54.952380}
+  - {low: 56.181987, high: 56.581987}
+  - {low: 57.020129, high: 57.420129}
+  - {low: 59.573697, high: 59.973697}
+  - {low: 61.511503, high: 61.911503}
+  - {low: 63.174112, high: 63.574112}
+dependent_variables:
+- header: {name: 'y-axis'}
+  qualifiers:
+  - {name: RE, value: P P --> $X$}
+  - {name: SQRT(S), value: 13000.0 GEV}
+  - {name: YRAP(CM), value: '$-0.5 < y < 0.5$'}
+  values:
+  - errors:
+    - {asymerror: {plus: 9.393209e+00, minus: -1.408981e+01}, label: stat}
+    - {asymerror: {plus: 4.696605e+00, minus: -7.044907e+00}, label: 'full syst.'}
+    value: 2.942234e+01
+  - errors:
+    - {asymerror: {plus: 2.895141e+00, minus: -4.342712e+00}, label: stat}
+    - {asymerror: {plus: 1.447571e+00, minus: -2.171356e+00}, label: 'full syst.'}
+    value: 1.452737e+01
+  - errors:
+    - {asymerror: {plus: 1.190079e+01, minus: -1.785119e+01}, label: stat}
+    - {asymerror: {plus: 5.950397e+00, minus: -8.925595e+00}, label: 'full syst.'}
+    value: 3.994206e+01
+  - errors:
+    - {asymerror: {plus: 1.263906e+01, minus: -1.895860e+01}, label: stat}
+    - {asymerror: {plus: 6.319532e+00, minus: -9.479299e+00}, label: 'full syst.'}
+    value: 4.386157e+01
+  - errors:
+    - {asymerror: {plus: 2.549612e+00, minus: -3.824418e+00}, label: stat}
+    - {asymerror: {plus: 1.274806e+00, minus: -1.912209e+00}, label: 'full syst.'}
+    value: 1.962899e+01
+  - errors:
+    - {asymerror: {plus: 1.843002e+01, minus: -2.764503e+01}, label: stat}
+    - {asymerror: {plus: 9.215010e+00, minus: -1.382252e+01}, label: 'full syst.'}
+    value: 6.291805e+01
+  - errors:
+    - {asymerror: {plus: 6.962047e+00, minus: -1.044307e+01}, label: stat}
+    - {asymerror: {plus: 3.481023e+00, minus: -5.221535e+00}, label: 'full syst.'}
+    value: 3.510132e+01
+  - errors:
+    - {asymerror: {plus: 1.596703e+01, minus: -2.395054e+01}, label: stat}
+    - {asymerror: {plus: 7.983515e+00, minus: -1.197527e+01}, label: 'full syst.'}
+    value: 6.051428e+01
+  - errors:
+    - {asymerror: {plus: 6.454286e+00, minus: -9.681429e+00}, label: stat}
+    - {asymerror: {plus: 3.227143e+00, minus: -4.840714e+00}, label: 'full syst.'}
+    value: 3.778114e+01
+  - errors:
+    - {asymerror: {plus: 1.774340e+00, minus: -2.661509e+00}, label: stat}
+    - {asymerror: {plus: 8.871698e-01, minus: -1.330755e+00}, label: 'full syst.'}
+    value: 2.761328e+01
+  - errors:
+    - {asymerror: {plus: 1.613215e+00, minus: -2.419822e+00}, label: stat}
+    - {asymerror: {plus: 8.066075e-01, minus: -1.209911e+00}, label: 'full syst.'}
+    value: 2.919436e+01
+  - errors:
+    - {asymerror: {plus: 1.640264e+01, minus: -2.460396e+01}, label: stat}
+    - {asymerror: {plus: 8.201320e+00, minus: -1.230198e+01}, label: 'full syst.'}
+    value: 6.964686e+01
+  - errors:
+    - {asymerror: {plus: 1.314320e+01, minus: -1.971480e+01}, label: stat}
+    - {asymerror: {plus: 6.571601e+00, minus: -9.857401e+00}, label: 'full syst.'}
+    value: 6.317233e+01
+  - errors:
+    - {asymerror: {plus: 1.536160e+01, minus: -2.304240e+01}, label: stat}
+    - {asymerror: {plus: 7.680800e+00, minus: -1.152120e+01}, label: 'full syst.'}
+    value: 7.094016e+01
+  - errors:
+    - {asymerror: {plus: 4.489618e+00, minus: -6.734428e+00}, label: stat}
+    - {asymerror: {plus: 2.244809e+00, minus: -3.367214e+00}, label: 'full syst.'}
+    value: 4.467301e+01
+  - errors:
+    - {asymerror: {plus: 1.152886e+01, minus: -1.729328e+01}, label: stat}
+    - {asymerror: {plus: 5.764428e+00, minus: -8.646642e+00}, label: 'full syst.'}
+    value: 6.497503e+01
+  - errors:
+    - {asymerror: {plus: 1.695687e+01, minus: -2.543530e+01}, label: stat}
+    - {asymerror: {plus: 8.478433e+00, minus: -1.271765e+01}, label: 'full syst.'}
+    value: 8.108785e+01
+  - errors:
+    - {asymerror: {plus: 9.772732e+00, minus: -1.465910e+01}, label: stat}
+    - {asymerror: {plus: 4.886366e+00, minus: -7.329549e+00}, label: 'full syst.'}
+    value: 6.440910e+01
+  - errors:
+    - {asymerror: {plus: 1.871189e-01, minus: -2.806783e-01}, label: stat}
+    - {asymerror: {plus: 9.355943e-02, minus: -1.403391e-01}, label: 'full syst.'}
+    value: 4.148651e+01
+  - errors:
+    - {asymerror: {plus: 1.870571e+01, minus: -2.805856e+01}, label: stat}
+    - {asymerror: {plus: 9.352854e+00, minus: -1.402928e+01}, label: 'full syst.'}
+    value: 9.163484e+01
+  - errors:
+    - {asymerror: {plus: 1.645194e+01, minus: -2.467791e+01}, label: stat}
+    - {asymerror: {plus: 8.225969e+00, minus: -1.233895e+01}, label: 'full syst.'}
+    value: 8.777504e+01
+  - errors:
+    - {asymerror: {plus: 3.352796e+00, minus: -5.029193e+00}, label: stat}
+    - {asymerror: {plus: 1.676398e+00, minus: -2.514597e+00}, label: 'full syst.'}
+    value: 5.571727e+01
+  - errors:
+    - {asymerror: {plus: 1.373233e+01, minus: -2.059850e+01}, label: stat}
+    - {asymerror: {plus: 6.866167e+00, minus: -1.029925e+01}, label: 'full syst.'}
+    value: 8.470407e+01
+  - errors:
+    - {asymerror: {plus: 3.573710e+00, minus: -5.360565e+00}, label: stat}
+    - {asymerror: {plus: 1.786855e+00, minus: -2.680283e+00}, label: 'full syst.'}
+    value: 6.029165e+01
+  - errors:
+    - {asymerror: {plus: 1.752380e+01, minus: -2.628570e+01}, label: stat}
+    - {asymerror: {plus: 8.761898e+00, minus: -1.314285e+01}, label: 'full syst.'}
+    value: 9.856187e+01
+  - errors:
+    - {asymerror: {plus: 1.381987e+01, minus: -2.072980e+01}, label: stat}
+    - {asymerror: {plus: 6.909934e+00, minus: -1.036490e+01}, label: 'full syst.'}
+    value: 9.093166e+01
+  - errors:
+    - {asymerror: {plus: 2.201286e+00, minus: -3.301929e+00}, label: stat}
+    - {asymerror: {plus: 1.100643e+00, minus: -1.650965e+00}, label: 'full syst.'}
+    value: 6.272334e+01
+  - errors:
+    - {asymerror: {plus: 7.736973e+00, minus: -1.160546e+01}, label: stat}
+    - {asymerror: {plus: 3.868487e+00, minus: -5.802730e+00}, label: 'full syst.'}
+    value: 7.911613e+01
+  - errors:
+    - {asymerror: {plus: 7.115028e+00, minus: -1.067254e+01}, label: stat}
+    - {asymerror: {plus: 3.557514e+00, minus: -5.336271e+00}, label: 'full syst.'}
+    value: 7.949907e+01
+  - errors:
+    - {asymerror: {plus: 3.741116e+00, minus: -5.611674e+00}, label: stat}
+    - {asymerror: {plus: 1.870558e+00, minus: -2.805837e+00}, label: 'full syst.'}
+    value: 7.272690e+01

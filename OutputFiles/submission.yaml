@@ -1,0 +1,28 @@
+{comment: 'Some abstract goes here'}
+---
+data_file: Table_1.yaml
+location: Table from Figure 1
+description: Some distribution from histogram
+keywords:
+  - {name: observables, values: [D2N/DPT/DYRAP]}
+  - {name: cmenergies, values: [13000]}
+  - {name: reactions, values: ['P P --> $X$']}
+name: Table 1
+---
+data_file: Table_2.yaml
+location: Table from Figure 2
+description: Values from a random graph
+keywords:
+  - {name: reactions, values: ['P P --> $X$']}
+  - {name: observables, values: ['2*i+rn->Rndm()']}
+  - {name: cmenergies, values: [13000]}
+name: Table 2
+---
+data_file: Table_3.yaml
+location: Table from Figure 3
+description: Values from a random asym graph
+keywords:
+  - {name: reactions, values: ['P P --> $X$']}
+  - {name: observables, values: ['2*i+rn->Rndm()']}
+  - {name: cmenergies, values: [13000]}
+name: Table 3
