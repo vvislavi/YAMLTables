@@ -13,6 +13,11 @@ independent_variables:
   - {low: 9.000000, high: 10.000000}
 dependent_variables:
 - header: {name: 'y-axis title'}
+  qualifiers:
+  - {name: Mutliplicity, value: 0-100}
+  - {name: RE, value: P P --> $X$}
+  - {name: SQRT(S), value: 13000.0 GEV}
+  - {name: YRAP(CM), value: '$-0.5 < y < 0.5$'}
   values:
   - errors:
     - {symerror: 2.236068e+00, label: stat}
@@ -65,6 +70,11 @@ dependent_variables:
     - {symerror: 8.000000e-02, label: 'unc. syst.'}
     value: 4.000000e+00
 - header: {name: 'y-axis title'}
+  qualifiers:
+  - {name: Mutliplicity, value: 0-100}
+  - {name: RE, value: P P --> $X$}
+  - {name: SQRT(S), value: 13000.0 GEV}
+  - {name: YRAP(CM), value: '$-0.5 < y < 0.5$'}
   values:
   - errors:
     - {symerror: 6.708204e+00, label: stat}
