@@ -45,7 +45,7 @@ This will:
 -- Clean the OutputFiles/ directory
 -- Create the OutputFiles/submission.yaml
 -- Compile the necessary scripts, execute them, produce tables and add them to the submission.yaml
--- Create a tarball to be uploaded to the HEPData.
+-- Create a tarball to be uploaded to the HEPData sandbox (https://www.hepdata.net/record/sandbox)
 
 Final notes:
 -- I started writing it while using root5. When I moved to root6, I noticed that root6 treats the anchor point of relative paths different. In particular, in root6, the anchor point is the directory from which root is called, while in root5 it was the directory where the file is located. Thus, if you are running root5, you will most likely have to edit the include paths in the Inputs/* files to make sure they find what they are looking for (most likely, just add ../ to the relevant includes).
