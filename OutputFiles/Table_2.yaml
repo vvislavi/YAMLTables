@@ -1,160 +1,56 @@
 independent_variables:
-- header: {name: 'x-axis'}
+- header: {name: 'Centrality'}
   values:
-  - value: 1.543002e-01
-  - value: 2.246387e+00
-  - value: 4.775951e+00
-  - value: 6.599383e+00
-  - value: 8.383607e+00
-  - value: 1.004449e+01
-  - value: 1.202882e+01
-  - value: 1.452005e+01
-  - value: 1.692777e+01
-  - value: 1.802448e+01
-  - value: 2.077796e+01
-  - value: 2.285143e+01
-  - value: 2.447120e+01
-  - value: 2.621722e+01
-  - value: 2.859478e+01
-  - value: 3.095465e+01
-  - value: 3.247794e+01
-  - value: 3.405473e+01
-  - value: 3.698394e+01
-  - value: 3.808573e+01
-  - value: 4.014489e+01
-  - value: 4.278296e+01
-  - value: 4.446061e+01
-  - value: 4.625656e+01
-  - value: 4.861096e+01
-  - value: 5.018499e+01
-  - value: 5.283674e+01
-  - value: 5.492197e+01
-  - value: 5.670322e+01
-  - value: 5.852115e+01
+  - value: 2.500000e+00
+  - value: 7.500000e+00
+  - value: 1.250000e+01
+  - value: 1.750000e+01
+  - value: 2.500000e+01
+  - value: 3.500000e+01
+  - value: 4.500000e+01
+  - value: 5.500000e+01
+  - value: 6.500000e+01
 dependent_variables:
-- header: {name: 'y-axis'}
+- header: {name: '$\rho\left(v_{2}^{2}, [p_{\rm T}] \right)$'}
   qualifiers:
-  - {name: RE, value: P P --> $X$}
-  - {name: SQRT(S), value: 13000.0 GEV}
-  - {name: YRAP(CM), value: '$-0.5 < y < 0.5$'}
+  - {name: RE, value: 'Xe Xe --> $h^{\pm}$'}
+  - {name: SQRT(S), value: 5440.0 GEV}
+  - {name: ABS(ETA), value: '$< 0.8$'}
+  - {name: PT, value: '$0.2 - 3.0$ GeV/$c$'}
   values:
   - errors:
-    - {symerror: 7.905996e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 4.232452e-01
+    - {symerror: 1.376199e-02, label: stat}
+    - {symerror: 6.129379e-03, label: 'full syst.'}
+    value: 1.243881e-01
   - errors:
-    - {symerror: 1.693464e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 1.937084e-01
+    - {symerror: 7.667288e-03, label: stat}
+    - {symerror: 5.620191e-03, label: 'full syst.'}
+    value: 1.140547e-01
   - errors:
-    - {symerror: 8.619951e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 2.175422e-01
+    - {symerror: 1.800504e-02, label: stat}
+    - {symerror: 8.120519e-03, label: 'full syst.'}
+    value: 1.647958e-01
   - errors:
-    - {symerror: 8.942668e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 4.903010e-01
+    - {symerror: 6.057782e-03, label: stat}
+    - {symerror: 8.025092e-03, label: 'full syst.'}
+    value: 1.628592e-01
   - errors:
-    - {symerror: 7.776607e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 9.937264e-01
+    - {symerror: 3.509998e-03, label: stat}
+    - {symerror: 8.789537e-03, label: 'full syst.'}
+    value: 1.783727e-01
   - errors:
-    - {symerror: 3.903102e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 8.501402e-01
+    - {symerror: 1.068599e-02, label: stat}
+    - {symerror: 7.889300e-03, label: 'full syst.'}
+    value: 1.601035e-01
   - errors:
-    - {symerror: 8.544955e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 5.424789e-02
+    - {symerror: 1.422318e-02, label: stat}
+    - {symerror: 7.249178e-03, label: 'full syst.'}
+    value: 1.471130e-01
   - errors:
-    - {symerror: 3.347600e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 7.051348e-01
+    - {symerror: 1.074146e-02, label: stat}
+    - {symerror: 7.027002e-03, label: 'full syst.'}
+    value: 1.426042e-01
   - errors:
-    - {symerror: 1.494743e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 2.403291e-01
-  - errors:
-    - {symerror: 9.352412e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 1.226209e-01
-  - errors:
-    - {symerror: 5.868943e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 2.047953e-01
-  - errors:
-    - {symerror: 3.481201e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 2.463593e-01
-  - errors:
-    - {symerror: 6.848344e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 8.381960e-01
-  - errors:
-    - {symerror: 4.606435e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 1.423704e-02
-  - errors:
-    - {symerror: 1.496268e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 9.343962e-01
-  - errors:
-    - {symerror: 4.394040e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 5.015480e-01
-  - errors:
-    - {symerror: 9.567471e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 9.923694e-01
-  - errors:
-    - {symerror: 7.270176e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 9.477148e-01
-  - errors:
-    - {symerror: 8.926727e-03, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 3.770898e-01
-  - errors:
-    - {symerror: 2.138195e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 5.614227e-01
-  - errors:
-    - {symerror: 2.358732e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 7.792221e-01
-  - errors:
-    - {symerror: 9.969315e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 9.393702e-01
-  - errors:
-    - {symerror: 8.344317e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 8.957287e-01
-  - errors:
-    - {symerror: 3.402267e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 7.522014e-01
-  - errors:
-    - {symerror: 2.592051e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 3.765593e-01
-  - errors:
-    - {symerror: 4.051386e-03, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 6.226684e-01
-  - errors:
-    - {symerror: 6.504076e-03, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 2.212610e-01
-  - errors:
-    - {symerror: 2.626853e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 2.206818e-01
-  - errors:
-    - {symerror: 3.952277e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 8.386439e-01
-  - errors:
-    - {symerror: 9.046192e-02, label: stat}
-    - {symerror: 1.000000e-01, label: 'full syst.'}
-    value: 9.026430e-01
+    - {symerror: 1.958124e-02, label: stat}
+    - {symerror: 5.722546e-03, label: 'full syst.'}
+    value: 1.161319e-01

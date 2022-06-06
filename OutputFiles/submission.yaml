@@ -1,28 +1,34 @@
-{comment: 'Some abstract goes here'}
+{comment: 'Correlations between mean transverse momentum $[p_{\rm T}]$ and anisotropic flow coefficients $v_{\rm 2}$ or $v_{\rm 3}$ are measured as a function of centrality in Pb--Pb and Xe--Xe collisions at $\sqrt{s_{\rm NN}} = 5.02$ TeV and 5.44 TeV, respectively, with ALICE. In addition, the recently proposed higher-order correlation between $[p_{\rm T}]$, $v_{\rm 2}$, and $v_{\rm 3}$ is measured for the first time, which shows an anticorrelation for the presented centrality ranges. These measurements are compared with hydrodynamic calculations using IP-Glasma and $\rm T_{R}ENTo$ initial-state shapes, the former based on the Color Glass Condensate effective theory with gluon saturation, and the latter a parameterized model with nucleons as the relevant degrees of freedom. The data are better described by the IP-Glasma rather than the $\rm T_{R}ENTo$ based calculations. In particular, Trajectum and JETSCAPE predictions, both based on the $\rm T_{R}ENTo$ initial state model but with different parameter settings, fail to describe the measurements. As the correlations between $[p_{\rm T}]$ and $v_{\rm n}$ are mainly driven by the correlations of the size and the shape of the system in the initial state, these new studies pave a novel way to characterize the initial state in relativistic heavy-ion collisions.
+'}
 ---
 data_file: Table_1.yaml
 location: Table from Figure 1
-description: Some distribution from histogram
+description: 'Centrality dependence of $\rho\left(v_{2}^{2}, [p_{\rm T}] \right)$  and $\rho\left(v_{3}^{2}, [p_{\rm T}] \right)$ in Pb--Pb collisions at $\sqrt{s_{\rm NN}}$ = 5.02 TeV'
 keywords:
-  - {name: observables, values: [D2N/DPT/DYRAP]}
-  - {name: cmenergies, values: [13000]}
-  - {name: reactions, values: ['P P --> $X$']}
+  - {name: reactions, values: ['Pb Pb --> $h^{\pm}$']}
+  - {name: cmenergies, values: [5020]}
 name: Table 1
 ---
 data_file: Table_2.yaml
-location: Table from Figure 2
-description: Values from a random graph
+location: Table from Figure 1
+description: 'Centrality dependence of $\rho\left(v_{2}^{2}, [p_{\rm T}] \right)$ in Xe--Xe collisions at $\sqrt{s_{\rm NN}}$ = 5.44 TeV'
 keywords:
-  - {name: reactions, values: ['P P --> $X$']}
-  - {name: observables, values: ['2*i+rn->Rndm()']}
-  - {name: cmenergies, values: [13000]}
+  - {name: reactions, values: ['Xe Xe --> $h^{\pm}$']}
+  - {name: cmenergies, values: [5440]}
 name: Table 2
 ---
 data_file: Table_3.yaml
-location: Table from Figure 3
-description: Values from a random asym graph
+location: Table from Figure 1
+description: 'Centrality dependence of $\rho\left(v_{3}^{2}, [p_{\rm T}] \right)$ in Xe--Xe collisions at $\sqrt{s_{\rm NN}}$ = 5.44 TeV'
 keywords:
-  - {name: reactions, values: ['P P --> $X$']}
-  - {name: observables, values: ['2*i+rn->Rndm()']}
-  - {name: cmenergies, values: [13000]}
+  - {name: reactions, values: ['Xe Xe --> $h^{\pm}$']}
+  - {name: cmenergies, values: [5440]}
 name: Table 3
+---
+data_file: Table_4.yaml
+location: Table from Figure 2
+description: 'Centrality dependence of $\rho\left(v_{2}^{2}, v_{3}^{2}, [p_{\rm T}] \right)$ in Pb--Pb collisions at $\sqrt{s_{\rm NN}}$ = 5.02 TeV'
+keywords:
+  - {name: reactions, values: ['Pb Pb --> $h^{\pm}$']}
+  - {name: cmenergies, values: [5020]}
+name: Table 4
