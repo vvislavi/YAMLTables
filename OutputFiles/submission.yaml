@@ -1,28 +1,40 @@
-{comment: 'Some abstract goes here'}
+{comment: 'This Letter reports on the first measurements of transverse momentum dependent flow angle $\Psi_{n}$ and flow magnitude $v_{n}$ fluctuations, determined using new four-particle correlators. The measurements are performed for various centralities in Pb-–Pb collisions at a centre of mass energy of $\sqrt{s_{\rm NN}} = 5.02{\rm\ TeV}$ with ALICE at the LHC. Both flow angle and flow magnitude fluctuations are observed in the presented centrality ranges and are strongest in the most central collisions and for a transverse momentum $p_{\rm T} > 2{\rm\ GeV}/c$. Comparison with theoretical models, including iEBE-VISHNU, MUSIC, and AMPT, show that the measurements bring novel insights into the fluctuating initial conditions that are not well known. In addition, these new results exhibit unique sensitivities to the specific shear viscosity, $\eta/s$, of the quark–gluon plasma (QGP) and to the initial state of the heavy-ion collisions. As such fluctuations are getting stronger with increasing $p_{\rm T}$, a re-examination of existing models is needed to have a more precise and unbiased extraction of properties of the QGP.'}
 ---
 data_file: Table_1.yaml
 location: Table from Figure 1
-description: Some distribution from histogram
+description: The flow angle fluctuation $A_{\rm 2}^{\rm f}$ as a function of $p_{\rm T}^{\rm a}$ in different centrality classes
 keywords:
-  - {name: observables, values: [D2N/DPT/DYRAP]}
-  - {name: cmenergies, values: [13000]}
-  - {name: reactions, values: ['P P --> $X$']}
+  - {name: observables, values: ['$A_{2}^{\rm f}$']}
+  - {name: cmenergies, values: [5020]}
+  - {name: reactions, values: ['Pb Pb --> $X$']}
 name: Table 1
 ---
 data_file: Table_2.yaml
 location: Table from Figure 2
-description: Values from a random graph
+description: The flow magnitude fluctuation $M_{\rm 2}^{\rm f}$ as a function of $p_{\rm T}^{\rm a}$ in different centrality classes
 keywords:
-  - {name: reactions, values: ['P P --> $X$']}
-  - {name: observables, values: ['2*i+rn->Rndm()']}
-  - {name: cmenergies, values: [13000]}
+  - {name: observables, values: ['$M_{2}^{\rm f}$']}
+  - {name: cmenergies, values: [5020]}
+  - {name: reactions, values: ['Pb Pb --> $X$']}
 name: Table 2
 ---
 data_file: Table_3.yaml
 location: Table from Figure 3
-description: Values from a random asym graph
+description: Lower (upper) limit of flow angle (magnitude) fluctuations and flow vector fluctuations as a function of centrality for 3.0 < $p_{\rm T}^{\rm a}$ < 4.0 GeV/$c$
 keywords:
-  - {name: reactions, values: ['P P --> $X$']}
-  - {name: observables, values: ['2*i+rn->Rndm()']}
-  - {name: cmenergies, values: [13000]}
+  - {name: observables, values: ['$(A_{2}^{\rm f})_{\rm min}$']}
+  - {name: observables, values: ['$(M_{2}^{\rm f})_{\rm max}$']}
+  - {name: observables, values: ['$v_{2}\{2\}/v_{2}[2]$']}
+  - {name: cmenergies, values: [5020]}
+  - {name: reactions, values: ['Pb Pb --> $X$']}
 name: Table 3
+---
+data_file: Table_4.yaml
+location: Table from Figure 3
+description: Ratio of lower (upper) flow angle (magnitude) fluctuation limits to total flow vector fluctuations as a function of centrality for 3.0 < $p_{\rm T}^{\rm a}$ < 4.0 GeV/$c$
+keywords:
+  - {name: observables, values: ['$\frac{(A_{2}^{\rm f})_{\rm min}}{v_{2}\{2\}/v_{2}[2]}$']}
+  - {name: observables, values: ['$\frac{(M_{2}^{\rm f})_{\rm max}}{v_{2}\{2\}/v_{2}[2]}$']}
+  - {name: cmenergies, values: [5020]}
+  - {name: reactions, values: ['Pb Pb --> $X$']}
+name: Table 4

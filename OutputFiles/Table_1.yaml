@@ -1,128 +1,113 @@
 independent_variables:
-- header: {name: 'x-axis title'}
+- header: {name: '$p_{\rm T}^{a}$'}
   values:
-  - {low: 0.000000, high: 1.000000}
-  - {low: 1.000000, high: 2.000000}
-  - {low: 2.000000, high: 3.000000}
+  - {low: 0.200000, high: 0.600000}
+  - {low: 0.600000, high: 1.000000}
+  - {low: 1.000000, high: 1.500000}
+  - {low: 1.500000, high: 2.000000}
+  - {low: 2.000000, high: 2.500000}
+  - {low: 2.500000, high: 3.000000}
   - {low: 3.000000, high: 4.000000}
-  - {low: 4.000000, high: 5.000000}
-  - {low: 5.000000, high: 6.000000}
-  - {low: 6.000000, high: 7.000000}
-  - {low: 7.000000, high: 8.000000}
-  - {low: 8.000000, high: 9.000000}
-  - {low: 9.000000, high: 10.000000}
 dependent_variables:
-- header: {name: 'y-axis title'}
+- header: {name: '0-5%'}
   qualifiers:
-  - {name: Mutliplicity, value: 0-100}
-  - {name: RE, value: P P --> $X$}
-  - {name: SQRT(S), value: 13000.0 GEV}
-  - {name: YRAP(CM), value: '$-0.5 < y < 0.5$'}
+  - {name: RE, value: Pb Pb --> $X$}
+  - {name: SQRT(S), value: 5020.0 GEV}
+  - {name: ETARAP(CM), value: '$|\eta| < 0.8$'}
   values:
   - errors:
-    - {symerror: 2.236068e+00, label: stat}
-    - {symerror: 2.500000e-01, label: 'full syst.'}
-    - {symerror: 1.000000e-01, label: 'unc. syst.'}
-    value: 5.000000e+00
+    - {symerror: 1.129524e-02, label: stat}
+    - {symerror: 4.787150e-03, label: 'full syst.'}
+    value: 9.803446e-01
   - errors:
-    - {symerror: 6.708204e+00, label: stat}
-    - {symerror: 2.250000e+00, label: 'full syst.'}
-    - {symerror: 9.000000e-01, label: 'unc. syst.'}
-    value: 4.500000e+01
+    - {symerror: 1.134642e-02, label: stat}
+    - {symerror: 1.453716e-03, label: 'full syst.'}
+    value: 9.847863e-01
   - errors:
-    - {symerror: 2.044505e+01, label: stat}
-    - {symerror: 2.090000e+01, label: 'full syst.'}
-    - {symerror: 8.360000e+00, label: 'unc. syst.'}
-    value: 4.180000e+02
+    - {symerror: 1.140448e-02, label: stat}
+    - {symerror: 4.890684e-03, label: 'full syst.'}
+    value: 9.898258e-01
   - errors:
-    - {symerror: 3.943349e+01, label: stat}
-    - {symerror: 7.775000e+01, label: 'full syst.'}
-    - {symerror: 3.110000e+01, label: 'unc. syst.'}
-    value: 1.555000e+03
+    - {symerror: 1.143606e-02, label: stat}
+    - {symerror: 4.970562e-03, label: 'full syst.'}
+    value: 9.925663e-01
   - errors:
-    - {symerror: 5.419410e+01, label: stat}
-    - {symerror: 1.468500e+02, label: 'full syst.'}
-    - {symerror: 5.874000e+01, label: 'unc. syst.'}
-    value: 2.937000e+03
+    - {symerror: 1.132131e-02, label: stat}
+    - {symerror: 1.157663e-02, label: 'full syst.'}
+    value: 9.826072e-01
   - errors:
-    - {symerror: 5.481788e+01, label: stat}
-    - {symerror: 1.502500e+02, label: 'full syst.'}
-    - {symerror: 6.010000e+01, label: 'unc. syst.'}
-    value: 3.005000e+03
+    - {symerror: 9.987888e-03, label: stat}
+    - {symerror: 2.775081e-02, label: 'full syst.'}
+    value: 8.668757e-01
   - errors:
-    - {symerror: 3.966106e+01, label: stat}
-    - {symerror: 7.865000e+01, label: 'full syst.'}
-    - {symerror: 3.146000e+01, label: 'unc. syst.'}
-    value: 1.573000e+03
-  - errors:
-    - {symerror: 2.004994e+01, label: stat}
-    - {symerror: 2.010000e+01, label: 'full syst.'}
-    - {symerror: 8.040000e+00, label: 'unc. syst.'}
-    value: 4.020000e+02
-  - errors:
-    - {symerror: 7.483315e+00, label: stat}
-    - {symerror: 2.800000e+00, label: 'full syst.'}
-    - {symerror: 1.120000e+00, label: 'unc. syst.'}
-    value: 5.600000e+01
-  - errors:
-    - {symerror: 2.000000e+00, label: stat}
-    - {symerror: 2.000000e-01, label: 'full syst.'}
-    - {symerror: 8.000000e-02, label: 'unc. syst.'}
-    value: 4.000000e+00
-- header: {name: 'y-axis title'}
+    - {symerror: 8.819262e-03, label: stat}
+    - {symerror: 1.641928e-02, label: 'full syst.'}
+    value: 7.654476e-01
+- header: {name: '10-20%'}
   qualifiers:
-  - {name: Mutliplicity, value: 0-100}
-  - {name: RE, value: P P --> $X$}
-  - {name: SQRT(S), value: 13000.0 GEV}
-  - {name: YRAP(CM), value: '$-0.5 < y < 0.5$'}
+  - {name: RE, value: Pb Pb --> $X$}
+  - {name: SQRT(S), value: 5020.0 GEV}
+  - {name: ETARAP(CM), value: '$|\eta| < 0.8$'}
   values:
   - errors:
-    - {symerror: 6.708204e+00, label: stat}
-    - {symerror: 7.500000e-01, label: 'full syst.'}
-    - {symerror: 3.000000e-01, label: 'unc. syst.'}
-    value: 1.500000e+01
+    - {symerror: 3.838164e-03, label: stat}
+    - {symerror: 1.274337e-03, label: 'full syst.'}
+    value: 9.936638e-01
   - errors:
-    - {symerror: 2.012461e+01, label: stat}
-    - {symerror: 6.750000e+00, label: 'full syst.'}
-    - {symerror: 2.700000e+00, label: 'unc. syst.'}
-    value: 1.350000e+02
+    - {symerror: 3.832408e-03, label: stat}
+    - {symerror: 7.250820e-04, label: 'full syst.'}
+    value: 9.921737e-01
   - errors:
-    - {symerror: 6.133514e+01, label: stat}
-    - {symerror: 6.270000e+01, label: 'full syst.'}
-    - {symerror: 2.508000e+01, label: 'unc. syst.'}
-    value: 1.254000e+03
+    - {symerror: 3.836600e-03, label: stat}
+    - {symerror: 5.958721e-04, label: 'full syst.'}
+    value: 9.932588e-01
   - errors:
-    - {symerror: 1.183005e+02, label: stat}
-    - {symerror: 2.332500e+02, label: 'full syst.'}
-    - {symerror: 9.330000e+01, label: 'unc. syst.'}
-    value: 4.665000e+03
+    - {symerror: 3.828644e-03, label: stat}
+    - {symerror: 7.162912e-04, label: 'full syst.'}
+    value: 9.911991e-01
   - errors:
-    - {symerror: 1.625823e+02, label: stat}
-    - {symerror: 4.405500e+02, label: 'full syst.'}
-    - {symerror: 1.762200e+02, label: 'unc. syst.'}
-    value: 8.811000e+03
+    - {symerror: 3.813040e-03, label: stat}
+    - {symerror: 1.664030e-03, label: 'full syst.'}
+    value: 9.871595e-01
   - errors:
-    - {symerror: 1.644536e+02, label: stat}
-    - {symerror: 4.507500e+02, label: 'full syst.'}
-    - {symerror: 1.803000e+02, label: 'unc. syst.'}
-    value: 9.015000e+03
+    - {symerror: 3.770090e-03, label: stat}
+    - {symerror: 3.493675e-03, label: 'full syst.'}
+    value: 9.760402e-01
   - errors:
-    - {symerror: 1.189832e+02, label: stat}
-    - {symerror: 2.359500e+02, label: 'full syst.'}
-    - {symerror: 9.438000e+01, label: 'unc. syst.'}
-    value: 4.719000e+03
+    - {symerror: 3.601641e-03, label: stat}
+    - {symerror: 6.534405e-03, label: 'full syst.'}
+    value: 9.324304e-01
+- header: {name: '30-40%'}
+  qualifiers:
+  - {name: RE, value: Pb Pb --> $X$}
+  - {name: SQRT(S), value: 5020.0 GEV}
+  - {name: ETARAP(CM), value: '$|\eta| < 0.8$'}
+  values:
   - errors:
-    - {symerror: 6.014981e+01, label: stat}
-    - {symerror: 6.030000e+01, label: 'full syst.'}
-    - {symerror: 2.412000e+01, label: 'unc. syst.'}
-    value: 1.206000e+03
+    - {symerror: 2.876088e-03, label: stat}
+    - {symerror: 1.239002e-03, label: 'full syst.'}
+    value: 9.966813e-01
   - errors:
-    - {symerror: 2.244994e+01, label: stat}
-    - {symerror: 8.400000e+00, label: 'full syst.'}
-    - {symerror: 3.360000e+00, label: 'unc. syst.'}
-    value: 1.680000e+02
+    - {symerror: 2.861074e-03, label: stat}
+    - {symerror: 6.702014e-04, label: 'full syst.'}
+    value: 9.914786e-01
   - errors:
-    - {symerror: 6.000000e+00, label: stat}
-    - {symerror: 6.000000e-01, label: 'full syst.'}
-    - {symerror: 2.400000e-01, label: 'unc. syst.'}
-    value: 1.200000e+01
+    - {symerror: 2.865293e-03, label: stat}
+    - {symerror: 6.543193e-04, label: 'full syst.'}
+    value: 9.929404e-01
+  - errors:
+    - {symerror: 2.866139e-03, label: stat}
+    - {symerror: 1.337274e-03, label: 'full syst.'}
+    value: 9.932335e-01
+  - errors:
+    - {symerror: 2.858360e-03, label: stat}
+    - {symerror: 2.339119e-03, label: 'full syst.'}
+    value: 9.905378e-01
+  - errors:
+    - {symerror: 2.831681e-03, label: stat}
+    - {symerror: 1.836009e-03, label: 'full syst.'}
+    value: 9.812927e-01
+  - errors:
+    - {symerror: 2.716630e-03, label: stat}
+    - {symerror: 7.752926e-03, label: 'full syst.'}
+    value: 9.414226e-01
